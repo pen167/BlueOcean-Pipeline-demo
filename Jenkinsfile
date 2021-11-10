@@ -1,10 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('') {
+    stage('error') {
       steps {
         echo 'HelloWorld'
-        git 'https://github.com/pen167'
       }
     }
 
